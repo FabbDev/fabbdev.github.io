@@ -13,6 +13,10 @@ site_1  |   Server running... press ctrl-c to stop.
 It seems to automatically rebuild the site on changes to the source. To stop
 the server just press <kbd>Ctrl</kbd>+<kbd>C</kbd> on the docker compose output.
 
+### Example page for styling
+
+If you navigate to `/styleguide` there's an example page for testing styling. Update it as you see fit.
+
 ## Troubleshooting
 
 If you get the following message either set the `origin` remote to GitHub or

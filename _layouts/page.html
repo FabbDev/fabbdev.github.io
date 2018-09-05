@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<nav role="navigation">
+  <ul id="menu">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#technology">Technology</a></li>
+    <li><a href="#get-in-touch">Get in touch</a></li>
+  </ul>
+</nav>
+
+
+{{ content }}
+
+<form method="POST" action="https://formspree.io/info@fabbdev.com">
+  <div class="input-wrapper">
+    <label for="email">Your email</label>
+    <input id="email" type="email" name="email" required="required">
+  </div>
+  <div class="input-wrapper">
+    <label for="telephone">Phone number (optional)</label>
+    <input id="telephone" type="tel" name="phone">
+  </div>
+  <div class="textarea-wrapper">
+    <label for="message">Your message</label>
+    <textarea id="message" name="message" required="required"></textarea>
+  </div>
+  <div class="button-wrapper">
+    <button type="submit">Send</button>
+  </div>
+</form>

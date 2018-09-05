@@ -1,0 +1,70 @@
+$nav-breakpoint: 560px;
+$nav-offset: 3em; // Header height is about 2.4em;
+
+nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  top: auto;
+  font-size: 1em;
+  left: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+
+  @media screen and (min-width: $nav-breakpoint) {
+    top: 0;
+    bottom: auto;
+    font-size: 1em;
+    border-bottom: 1px solid #CCC;
+    border-top: 0;
+  }
+
+  #menu {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    position: relative;
+
+    @media screen and (min-width: $nav-breakpoint) {
+      width: 40em;
+    }
+
+    li {
+      display: block;
+      padding: 0.5em 1em;
+      border-right: 1px solid #ccc;
+      margin: 0;
+      box-sizing: border-box;
+
+      @media screen and (min-width: $nav-breakpoint) {
+        width: auto;
+      }
+
+      a {
+        font-size: 0.8em;
+        border-bottom: 0;
+      }
+    }
+
+    li:first-child {
+      border-left: 1px solid #ccc;
+    }
+  }
+}
+
+// Ensure that elements with an ID are vertically offset to allow for the nav.
+[id]::before {
+  content: "";
+  display: block;
+  // Ensure a small gap at top so the headings don't stick to top on mobile.
+  height: 1em;
+  margin: -1em 0 0;
+
+  @media screen and (min-width: $nav-breakpoint) {
+    height: $nav-offset;
+    margin: -$nav-offset 0 0;
+  }
+}
