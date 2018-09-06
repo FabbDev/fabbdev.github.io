@@ -13,7 +13,6 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 document.addEventListener('DOMContentLoaded', function () {
   // Scroll to the given selector.
   var scrollToNode = function (selector) {
-    console.log(selector);
     const element = document.querySelector(selector);
     if (element) {
       window.scrollTo({

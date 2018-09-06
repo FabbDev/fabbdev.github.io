@@ -1,2 +1,2 @@
 title: FABB
-exclude: ['README.md', 'styleguide.md', 'docker-compose.yml', 'vendor', 'Gemfile', 'Gemfile.lock', '.idea']
+exclude: ['README.md', 'styleguide.md', 'docker-compose.yml', 'vendor', 'Gemfile', 'Gemfile.lock', '.idea', 'scripts']

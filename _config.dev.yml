@@ -1,1 +1,1 @@
-exclude: ['README.md', 'docker-compose.yml', 'vendor', 'Gemfile', 'Gemfile.lock', '.idea']
+exclude: ['README.md', 'docker-compose.yml', 'vendor', 'Gemfile', 'Gemfile.lock', '.idea', 'scripts']

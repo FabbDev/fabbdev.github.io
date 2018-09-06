@@ -22,8 +22,8 @@ h1 {
   padding: 2em 0;
   margin: 0;
   font-family: "CooperHewitt Semibold", sans-serif;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-bottom: 1px solid $h-border-color;
+  border-top: 1px solid $h-border-color;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
   margin-top: 5em;
   padding-bottom: 0.5em;
   font-family: "CooperHewitt Semibold", sans-serif;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid $h-border-color;
 }
 
 h3 {
@@ -75,7 +75,7 @@ blockquote {
 footer {
   font-size: 0.9em;
   font-family: "CooperHewitt Book", sans-serif;
-  color: #666666;
+  color: $footer-color;
 
   address {
     font-style: normal;
@@ -85,8 +85,8 @@ footer {
 a {
   &:link,
   &:visited {
-    color: #666666;
-    border-bottom: 1px solid #666;
+    color: $link-color;
+    border-bottom: 1px solid $link-border-color;
     text-decoration: none;
 
     -webkit-transition: color 0.25s linear;
@@ -98,7 +98,7 @@ a {
 
   &:hover,
   &:focus {
-    color: black;
+    color: $link-hover-color;
     border-bottom: 0;
   }
 }
