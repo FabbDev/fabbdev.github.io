@@ -34,7 +34,7 @@ nav {
 
     li {
       display: block;
-      padding: 0.5em 1em;
+      padding: 0;
       border-right: 1px solid $nav-border-color;
       margin: 0;
       box-sizing: border-box;
@@ -44,7 +44,9 @@ nav {
       }
 
       a {
+        display: block;
         font-size: 0.8em;
+        padding: 0.625em 1.25em;
         border-bottom: 0;
       }
     }

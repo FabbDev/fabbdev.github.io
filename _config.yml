@@ -1,2 +1,3 @@
 title: FABB
 exclude: ['README.md', 'styleguide.md', 'docker-compose.yml', 'vendor', 'Gemfile', 'Gemfile.lock', '.idea', 'scripts']
+repository: 'FabbDev/fabbdev.github.io'
