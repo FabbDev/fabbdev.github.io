@@ -45,6 +45,7 @@ form {
   textarea {
     border: none;
     border-bottom: 1px solid $form-border-optional-color;
+    border-radius: 0;
     padding: 0.5em 0.25em;
     height: 3.15em;
     box-sizing: inherit;
