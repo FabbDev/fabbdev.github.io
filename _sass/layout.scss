@@ -16,3 +16,14 @@ footer {
   padding-top: 1em;
   border-top: 2px solid $footer-border-color;
 }
+
+// Hacky way to target a single image inserted through markdown.
+img[alt="Drupal Association Organization Member"] {
+  float: none;
+  // Block display makes the image not show the text decoration/underline any more.
+  display: block;
+
+  @media screen and (min-width: $nav-breakpoint) {
+    float: right;
+  }
+}

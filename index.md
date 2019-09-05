@@ -79,6 +79,11 @@ Technology should work for you - not the other way around!
 ## Get in touch
 
 If any of this sounds interesting to you, or if you'd just like to talk about your needs, please get in touch with us.
+
+ [![Drupal Association Organization Member](assets/image/Drupal_Association_org_memb_217.png)](https://www.drupal.org/fabb)
  
 - Email: <info@fabbdev.com> or use the form provided below
+- Call us on:
+  - +44&nbsp;(0)7367&nbsp;440&nbsp;337
+  - +44&nbsp;(0)7367&nbsp;442&nbsp;136
 - [Visit our Drupal.org profile](https://www.drupal.org/fabb)
